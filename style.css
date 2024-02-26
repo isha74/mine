@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-image: url(../Website/ikea20.png);
+  background-repeat: no-repeat ;
+  background-size:cover;
+  background-blend-mode: darken;
+  position: relative;
+  background-position: center bottom ;
+}
+
+header .navdiv ul li{
+  position: relative;
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.navdiv ul li a{
+  color:white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.5s;
+}
+
+.navdiv ul li a:hover{
+color: rgb(0, 0, 0);
+background-color: rgb(252, 251, 250);
+}
+
+.navdiv ul li ul{
+  display: block;
+  position: absolute;
+  width: 150px;
+  background-color: #c6cacb;
+ display: none;
+}
+
+.navdiv ul li ul li{
+  width: 100%;
+  border-top: 1px solid rgb(0, 0,.1);
+}
+
+.navdiv ul li a:hover > ul{
+  display: initial block;
+}
+
+.page{
+  text-align: center;
+}
+
+.page h1{
+  font-size: 140px;
+  color: white;
+  font-weight: 600;
+}
+
+.page a{
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  position: bottom;
+  font-size: 25px;
+  border: 4px solid #fff;
+  padding: 14px 70px;
+  border-radius: 50px;
+  margin-top: 20px;
+  transition: 0.5s;
+}
+
+.page a:hover{
+color: rgb(0, 0, 0);
+background-color: rgb(214, 209, 205);
+}

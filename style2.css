@@ -1,0 +1,144 @@
+* /{
+    padding: 0;
+    margin: 0;
+}
+.landrover{
+    
+}
+.rangerover{
+padding-top: 100px;
+height:600px;
+width: 100%;
+background-image: url(../Website/ikea.jpg);
+background-image: image(no-repeat);
+background-size:cover;
+text-align: center;
+font-size: 30px;
+font-weight: 300;
+
+}
+.rangerover h1{
+    color: whitesmoke;
+}
+.rangerover a{
+
+text-align: center;
+text-decoration: none;
+display: inline-block;
+color: white;
+font-size: 30px;
+border: 3px solid #fff;
+padding: 14px 70px;
+border-radius: 50px;
+margin-top: 20px;
+
+}
+.rangerover a:hover
+{
+    color: rgb(0, 0, 0);
+background-color: whitesmoke;
+}
+.defender{
+padding-top: 100px;
+height: 600px;
+width: 100%;
+background-image: url(../defender.jpg);
+background-image: image(no-repeat);
+background-size: cover;
+text-align: center;
+font-size: 30px;
+font-weight: 300;
+}
+
+.defender h1
+{
+    color: whitesmoke;
+}
+.defender a{
+    text-align: center;
+text-decoration: none;
+display: inline-block;
+color: white;
+font-size: 30px;
+border: 2px solid #fff;
+padding: 14px 70px;
+border-radius: 50px;
+margin-top: 20px;
+        
+    }
+    .defender a:hover
+{
+    color: rgb(0, 0, 0);
+background-color: whitesmoke;
+}
+.discovery{
+padding-top: 100px;
+height: 600px;
+width: 100%;
+background-image: url(../discovery.jpg);
+background-image: image(no-repeat);
+background-size: cover;
+text-align: center;
+font-size: 30px;
+font-weight: 300;
+}
+.discovery h1
+{
+    color: whitesmoke;
+}
+.discovery a{
+    text-align: center;
+text-decoration: none;
+display: inline-block;
+color: white;
+font-size: 30px;
+border: 2px solid #fff;
+padding: 14px 70px;
+border-radius: 50px;
+margin-top: 20px;
+    }
+    .discovery a:hover
+{
+    color: rgb(0, 0, 0);
+background-color: whitesmoke;
+}
+   
+}
+
+    
+
+}
+#navbar {
+    height: 400px;
+    background-color:black;
+}
+ul
+{
+    list-style: none;
+}
+.row
+{
+    display:flex;
+    flex-wrap: ;
+}
+.footer
+{
+    background-color: white;
+    padding: 70px 0;
+    text-size-adjust: 20px;
+}
+.footer .container .row .footer-col ul li{
+    width: 80%;
+}
+.footer .container .row .footer-col ul li a
+{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+}
+
+    
+
+

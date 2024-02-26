@@ -1,0 +1,69 @@
+.form{
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+.container{
+    display:inline-block;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.card {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  display:inline-block;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 5px;
+  background-image: url(../Website/ikea.jpg);
+}
+
+
+.card-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.navbar {
+    height: 400px;
+    background-color:black;
+}
+ul
+{
+    list-style: none;
+}
+.row
+{
+    display:flex;
+    flex-wrap: ;
+}
+
+.video
+{
+  padding: 120px;
+  align-content:center;
+  justify-content: center;
+  width: 100dvh;
+  height: 90%;
+}
+.video .heading{
+  text-align: center;
+  padding: 60px;
+  text-decoration: solid;
+}
+ 
+
+
+
